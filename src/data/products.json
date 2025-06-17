@@ -44,6 +44,15 @@
       "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=300&h=300&fit=crop",
       "category": "Sports",
       "stock": 75
+    },
+    {
+      "id": 7,
+      "name": "Air Purifier",
+      "price": 89.99,
+      "description": "Compact HEPA air purifier for cleaner, fresher indoor air.",
+      "image": "https://i.pinimg.com/736x/e1/8b/f9/e18bf92bb26be1caed892f4393513ef7.jpg",
+      "category": "Home Appliances",
+      "stock": 45
     }
   ]
 }
