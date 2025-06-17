@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Earbuds",
+      "price": 99.99,
+      "description": "High-quality wireless earbuds with noise cancellation",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=300&h=300&fit=crop",
+      "category": "Electronics",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 199.99,
+      "description": "Feature-rich smartwatch with health tracking",
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=300&h=300&fit=crop",
+      "category": "Electronics",
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Laptop Backpack",
+      "price": 49.99,
+      "description": "Water-resistant laptop backpack with multiple compartments",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop",
+      "category": "Accessories",
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "price": 79.99,
+      "description": "Programmable coffee maker with thermal carafe",
+      "image": "https://i.pinimg.com/736x/d4/f8/2e/d4f82ef8b39bad483b666fe576d8bdbe.jpg",
+      "category": "Home & Kitchen",
+      "stock": 25
+    },
+    {
+      "id": 5,
+      "name": "Yoga Mat",
+      "price": 29.99,
+      "description": "Non-slip yoga mat with carrying strap",
+      "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=300&h=300&fit=crop",
+      "category": "Sports",
+      "stock": 75
+    }
+  ]
+}
