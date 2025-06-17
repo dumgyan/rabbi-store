@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="card h-100">
-      <div className="card-img-container" style={{ height: '400px', overflow: 'hidden', backgroundColor: '#f8f9fa' }}>
+      <div className="card-img-container" style={{ height: '400px', overflow: 'hidden', backgroundColor: '#f8f9fa', cursor: 'pointer' }} onClick={() => window.location.href = `/product/${product.id}`}>
         <img 
           src={imageError ? 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24"%3E%3Cpath fill="%23ccc" d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/%3E%3C/svg%3E' : product.image} 
           className="card-img-top" 
@@ -34,7 +34,7 @@ const ProductCard = ({ product }) => {
               {product.stock > 0 ? 'In Stock' : 'Out of Stock'}
             </span>
             <Link to={`/product/${product.id}`} className="btn btn-primary">
-              View Details
+              Buy Now
             </Link>
           </div>
         </div>
